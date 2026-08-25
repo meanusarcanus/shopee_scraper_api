@@ -1,0 +1,7 @@
+{
+  "openapi": "3.0.2",
+  "info": {
+    "title": "Shopee Product & Review Intelligence Scraper Pro",
+    "version": "1.0.0"
+  }
+}

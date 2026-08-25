@@ -1,0 +1,12 @@
+{
+  "actorSpecification": 1,
+  "name": "shopee-scraper-ai",
+  "title": "Shopee Product & Review Intelligence Scraper Pro",
+  "description": "Extract Shopee product details, prices, SKU variants, full image gallery, seller shop info, ratings & customer reviews across Brazil, Indonesia, Thailand, Malaysia, Singapore, Philippines, Vietnam, Mexico. Just $4.99/1k items—75% cheaper!",
+  "version": "1.0.0",
+  "meta": {
+    "category": "E_COMMERCE"
+  },
+  "dockerfile": "./Dockerfile",
+  "output": "./output_schema.json"
+}

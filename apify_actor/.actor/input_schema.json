@@ -1,0 +1,51 @@
+{
+  "title": "Shopee Scraper Pro Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "product_url": {
+      "title": "Shopee Product URL",
+      "type": "string",
+      "description": "Specific Shopee product URL (e.g. https://shopee.co.th/product/118144917/29975597144).",
+      "editor": "textfield",
+      "prefill": "https://shopee.co.th/product/118144917/29975597144"
+    },
+    "search_query": {
+      "title": "Search Query",
+      "type": "string",
+      "description": "Product search query across Shopee store.",
+      "editor": "textfield",
+      "prefill": "wireless bluetooth speaker"
+    },
+    "country": {
+      "title": "Shopee Store Country Code",
+      "type": "string",
+      "description": "Country store TLD.",
+      "editor": "select",
+      "default": "TH",
+      "enum": ["TH", "ID", "BR", "MY", "SG", "PH", "VN", "MX"]
+    },
+    "include_reviews": {
+      "title": "Include Customer Reviews",
+      "type": "boolean",
+      "description": "Extract buyer review comments and rating breakdown.",
+      "default": true
+    },
+    "max_reviews": {
+      "title": "Max Reviews per Product",
+      "type": "integer",
+      "description": "Maximum buyer reviews to extract.",
+      "editor": "number",
+      "default": 30,
+      "prefill": 30
+    },
+    "max_products": {
+      "title": "Max Products to Extract",
+      "type": "integer",
+      "description": "Maximum number of Shopee products to scrape.",
+      "editor": "number",
+      "default": 10,
+      "prefill": 10
+    }
+  }
+}
