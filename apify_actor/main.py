@@ -19,7 +19,7 @@ async def main():
 
         Actor.log.info(f"Scraping Shopee products for url='{product_url}' country='{country}' query='{search_query}' (limit: {max_products})")
 
-        api_url = "https://microsaas-agent-api.vercel.app/scrape-shopee"
+        api_url = "https://microsaas-agent-api.onrender.com/scrape-shopee"
         payload = {
             "product_url": product_url,
             "search_query": search_query,
